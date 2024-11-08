@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary and Secondary colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorSecondary">#03DAC5</color>
+
+    <!-- Background and Text Colors -->
+    <color name="backgroundLight">#FAFAFA</color>
+    <color name="textPrimary">#333333</color>
+    <color name="textSecondary">#666666</color>
+
+    <!-- Additional custom colors -->
+    <color name="cardBackground">#EBEBEB</color>
+    <color name="divider">#E0E0E0</color>
 </resources>
