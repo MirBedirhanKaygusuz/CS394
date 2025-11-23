@@ -1,0 +1,54 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2rem;
+  background: #2d3748;
+  color: #e2e8f0;
+  font-size: 0.85rem;
+  border-top: 1px solid #4a5568;
+}
+
+.status-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.status-right {
+  display: flex;
+  align-items: center;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.status-item strong {
+  color: #a0aec0;
+  font-weight: 600;
+}
+
+.status-separator {
+  color: #4a5568;
+}
+
+.last-saved {
+  color: #68d391;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .status-bar {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+  }
+
+  .status-left {
+    gap: 0.5rem;
+  }
+}
